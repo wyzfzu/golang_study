@@ -8,5 +8,7 @@ func main() {
 	// basics.TestIsValidStr()
 	// basics.TestLongestCommonPrefix()
 	// basics.TestPlusOne()
-	basics.TestRemoveDuplicates()
+	// basics.TestRemoveDuplicates()
+	// basics.TestMergeIntervals()
+	basics.TestTwoSum()
 }
