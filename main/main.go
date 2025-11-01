@@ -28,10 +28,11 @@ func TestAdcance() {
 func TestSql() {
 	sqls.TestGorm()
 	sqls.TestSqlx()
+	sqls.TestAdvanceGorm()
 }
 
 func main() {
-	// TestBasics()
-	// TestAdcance()
+	TestBasics()
+	TestAdcance()
 	TestSql()
 }
