@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/wyzfzu/golang_study/advance"
 	"github.com/wyzfzu/golang_study/basics"
+	"github.com/wyzfzu/golang_study/sqls"
 )
 
 func TestBasics() {
@@ -24,7 +25,13 @@ func TestAdcance() {
 	advance.TestLock()
 }
 
+func TestSql() {
+	sqls.TestGorm()
+	sqls.TestSqlx()
+}
+
 func main() {
-	TestBasics()
-	TestAdcance()
+	// TestBasics()
+	// TestAdcance()
+	TestSql()
 }
